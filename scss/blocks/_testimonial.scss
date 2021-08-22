@@ -1,0 +1,25 @@
+.testimonial {
+    background-color: #EFEFEF;
+    text-align: center;
+    align-content: center;
+    
+    &__content {
+        width: 875px;
+    }
+
+    &__img {
+        padding-top: 60px;
+        padding-bottom: 40px;       
+    }
+
+    &__text {
+        font-family: Roboto Slab;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 30px;       
+        color: #A1A1A1;
+        padding-bottom: 90px;
+    }
+
+}

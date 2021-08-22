@@ -1,0 +1,22 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+}
+
+.btn {
+    display: inline-block;
+    padding: 17px 34px 16px;
+    border-radius: 3px;
+    transition: 0.3 ease;
+    text-transform: uppercase;
+    text-decoration: none;
+  }

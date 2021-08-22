@@ -1,0 +1,48 @@
+@import "../vars";
+
+.header {
+    padding: 36px 0 37px 0;
+    background-color: $header-bg;
+
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__logo {
+        width: 265px;
+        margin-right: 95px;
+    }
+    &__logo__img {
+        max-width: 100%;
+        object-fit: contain;
+    }
+
+    &__menu {
+        display: flex;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    &__menu__item + &__menu__item {
+        margin-left: 30px;
+    }
+
+    &__menu__link {
+        text-decoration: none;
+        font-family: Roboto Condensed;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 16px;
+        /* identical to box height, or 100% */
+      
+        text-transform: uppercase;
+    }
+
+    &__menu__link__active {
+        color: #1ABB9C;
+    }
+}
+

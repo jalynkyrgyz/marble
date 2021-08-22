@@ -1,0 +1,78 @@
+.footer {
+    background-color: #1f1f1f;
+
+    &__list {
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+        padding-bottom: 50px;
+        
+    }
+
+    &__item {
+        width: 255px;
+    }
+
+    &__title {
+        padding-top: 55px;
+        font-family: Roboto Condensed;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 22px;
+        text-transform: uppercase;
+        color: #6C6C6C;
+    }
+
+    &__text {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 24px;
+        color: #CACACA;
+    }
+
+    &__first__list {
+        list-style: none;
+        padding: 0;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 24px;
+        color: #FFFFFF;
+    }
+
+    &__first__item__adress::before {
+        content: url(../images/location.png);
+        padding-right: 15px;
+    }
+
+    &__first__item__phone::before {
+        content: url(../images/phone.png);
+        padding-right: 15px;
+    }
+
+    &__first__item__mail::before {
+        content: url(../images/mail.png);
+        padding-right: 15px;
+    }
+
+    &__text__second::before {
+        content: url(../images/twitter.png);
+        padding-right: 15px;
+    }
+
+    &__last {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 22px;
+        color: #CACACA;
+        padding-top: 50px;
+        padding-bottom: 45px;
+    }
+    
+}
